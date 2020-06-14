@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TapticEgineTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="95" translatesAutoresizingMaskIntoConstraints="NO" id="5RK-EF-2H2">
+                                <rect key="frame" x="-615" y="255.5" width="1644" height="385"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="71" translatesAutoresizingMaskIntoConstraints="NO" id="L1f-ma-FYD">
+                                        <rect key="frame" x="676" y="0.0" width="292" height="65"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZY-h7-HaW" userLabel="1">
+                                                <rect key="frame" x="0.0" y="-1" width="50" height="67"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="65" id="1FG-kQ-zMs"/>
+                                                    <constraint firstAttribute="width" constant="50" id="6MS-mV-GCS"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <state key="normal" backgroundImage="bolt.fill" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t3C-AB-g6c"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0p-oG-rYE" userLabel="2">
+                                                <rect key="frame" x="121" y="-1" width="50" height="67"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="WUq-IA-n20"/>
+                                                    <constraint firstAttribute="height" constant="65" id="pzf-H7-oIS"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <state key="normal" backgroundImage="bolt.fill" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uk9-i0-O6O"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LG3-mg-aQZ" userLabel="3">
+                                                <rect key="frame" x="242" y="-1" width="50" height="67"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="85G-A6-MnM"/>
+                                                    <constraint firstAttribute="height" constant="65" id="hLO-f7-Hls"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <state key="normal" backgroundImage="bolt.fill" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ecq-AD-Gb5"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="71" id="KBm-dD-d29">
+                                        <rect key="frame" x="676" y="115" width="188.5" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kLV-64-KRt" userLabel="1">
+                                                <rect key="frame" x="0.0" y="-1" width="50" height="67"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="6fY-X4-vu8"/>
+                                                    <constraint firstAttribute="height" constant="65" id="cmR-kU-wOB"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <state key="normal" backgroundImage="bolt.fill" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pei-NU-Hfz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gi2-dP-Ga1" userLabel="2">
+                                                <rect key="frame" x="121" y="-1" width="50" height="67"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="CIw-E6-fIr"/>
+                                                    <constraint firstAttribute="height" constant="65" id="U3a-uB-3du"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <state key="normal" backgroundImage="bolt.fill" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x58-fX-ljB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGu-kW-S4u" userLabel="3">
+                                                <rect key="frame" x="242" y="-1" width="50" height="67"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="65" id="1H7-ZJ-EJX"/>
+                                                    <constraint firstAttribute="width" constant="50" id="4C4-Ap-Eed"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <state key="normal" backgroundImage="bolt.fill" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vHH-dd-Nh5"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="NYE-n9-VVc"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="74" translatesAutoresizingMaskIntoConstraints="NO" id="fTO-XQ-Wff">
+                                        <rect key="frame" x="735.5" y="320" width="173" height="65"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfq-DS-5ws" userLabel="1">
+                                                <rect key="frame" x="0.0" y="-1" width="50" height="67"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="65" id="UO7-g6-pkn"/>
+                                                    <constraint firstAttribute="width" constant="50" id="WS3-q4-fPp"/>
+                                                </constraints>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <state key="normal" backgroundImage="bolt.fill" catalog="system">
+                                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="button7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hvi-qy-MHv"/>
+                                                </connections>
+                                            </button>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gbm-sf-bc7">
+                                                <rect key="frame" x="124" y="17" width="51" height="31"/>
+                                                <color key="onTintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="thumbTintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5RK-EF-2H2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6FK-75-16S"/>
+                            <constraint firstItem="5RK-EF-2H2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LsM-Fe-rXV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-57.971014492753625" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bolt.fill" catalog="system" width="44" height="64"/>
+    </resources>
+</document>
